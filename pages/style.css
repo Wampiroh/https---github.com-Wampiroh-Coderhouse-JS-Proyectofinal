@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(../img/bg.gif);
+    background-size: 100% vw;
+    opacity: 0.9;
+    z-index: 0;
+  }
+  h1 {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    z-index: 1;
+  }
+
+  .botonPrimerBloque {
+    display: flex;
+    width: 100% vw;
+    justify-content: center;
+    padding: 3rem;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+  }
